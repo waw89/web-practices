@@ -8,23 +8,31 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 */
 
 /*  Color for the background  */
-body {background-color: aquamarine;}
+body {
+      background-image:url("../img/kirby.gif");
+      background-position: right top;
+      background-repeat: no-repeat}
 
 /* Color for all the headers (1)*/
-h1{color: maroon; font-size:20pt;}
+h1{color: pink; font-size:20pt; font-weight: bolder}
 
 /*  Color fot the hr  */
 hr{color: navy;}
 
 /* Color fot the paragraph element*/
-p {font-size: 11pt; margin-left:15px;}
+p {font-size: 11pt; margin-left:15px; color: pink}
+
 
 
 /* Colors fot the anchor element in its different modes  */
+
+a{
+    text-decoration: blink;
+}
 a:link {color:green;}
 
-a:visited{color:yellow;}
+a:visited{color:blue;}
 
-a:active{color: blue;}
+a:active{color: green;}
 
 a:hover{color: black;}
