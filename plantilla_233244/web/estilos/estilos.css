@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 feb 2024, 11:52:56
+    Author     : luisp
+*/
+
+/*  Color for the background  */
+body {background-color: aquamarine;}
+
+/* Color for all the headers (1)*/
+h1{color: maroon; font-size:20pt;}
+
+/*  Color fot the hr  */
+hr{color: navy;}
+
+/* Color fot the paragraph element*/
+p {font-size: 11pt; margin-left:15px;}
+
+
+/* Colors fot the anchor element in its different modes  */
+a:link {color:green;}
+
+a:visited{color:yellow;}
+
+a:active{color: blue;}
+
+a:hover{color: black;}
